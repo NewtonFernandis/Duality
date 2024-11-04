@@ -1,0 +1,55 @@
+.compare {
+  display: grid;
+
+  > * {
+    grid-area: 1 / 1;
+  }
+
+  > section {
+    display: grid;
+  }
+
+  .before {
+    mask: linear-gradient(to right, #000 0, var(--pos, 50%), #0000 0);
+    width: 100%;
+    height: 100%;
+  }
+
+  .after {
+    mask: linear-gradient(to right, #0000 0, var(--pos, 50%), #000 0);
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Styling the input range slider */
+  input[type='range'] {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+
+    /* Thumb styling */
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 2px;
+      height: var(--slider-thumb-height);
+      background-color: #333;
+      position: relative;
+      z-index: 1;
+      cursor: ew-resize;
+    }
+
+    &::-moz-range-thumb {
+      width: 2px;
+      height: var(--slider-thumb-height);
+      background-color: #333;
+      border: none;
+      cursor: ew-resize;
+    }
+  }
+}
