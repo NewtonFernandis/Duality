@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-npm install duality
+npm install duality-comparison-slider
 ```
 
 ## Usage
