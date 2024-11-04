@@ -1,11 +1,12 @@
 {
-  "name": "duality",
-  "version": "1.0.0",
+  "name": "duality-comparison-slider",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "publish": "npm version patch --force && npm publish"
   },
   "author": "Newton Fernandis",
   "license": "ISC",
