@@ -2,7 +2,7 @@
 
 `Duality` React component that allows users to compare "Before" and "After" content using a smooth, adjustable slider. This component can showcase image transformations, design differences, or any content that benefits from direct comparison.
 
-![Comparison Slider Demo](./doc/assets/demo.gif) <!-- Optional: Add an image/GIF demo of the component -->
+![Comparison Slider Demo](https://raw.githubusercontent.com/NewtonFernandis/Duality/main/doc/assets/demo.gif?raw=true) <!-- Optional: Add an image/GIF demo of the component -->
 
 ## Installation
 
